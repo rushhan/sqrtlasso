@@ -1,7 +1,5 @@
-def sqrtlasso(X,Y,lam,options):
-    MaxIter = options['MaxIter']
-    PrintOut= options['PrintOut']
-    OptTolNorm = options['OptTolNorm']
+def sqrtlasso(X,Y,lam=0.1,MaxIter=10):
+
     
     n,p = X.shape
 
